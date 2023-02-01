@@ -19,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/faizamahmoud/portfolio-cleanfolio/issues"
   },
-  "homepage": "https://github.com/faizamahmoud/portfolio-cleanfolio#readme",
+  "homepage": "https://faizamahmoud.github.io/",
   "dependencies": {
     "@material-ui/core": "^4.12.4",
     "@material-ui/icons": "^4.11.3",
