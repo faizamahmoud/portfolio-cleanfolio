@@ -6,7 +6,7 @@ import Main from './components/Main/Main'
 import './App.css'
 import ReactGA from 'react-ga';
 
-const TRACKING_ID = "UA-247358619-1"; 
+const TRACKING_ID = "UA-247358619-1";
 ReactGA.initialize(TRACKING_ID);
 
 const App = () => {
@@ -15,9 +15,7 @@ const App = () => {
   return (
     <div id='top' className={`${themeName} app`}>
       <Header />
-<Main />
-      
-      
+      <Main />
     </div>
   )
 }

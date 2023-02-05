@@ -1,25 +1,29 @@
 import React from 'react'
-import About from './components/About/About'
-import Projects from './components/Projects/Projects'
-import Skills from './components/Skills/Skills'
-// import ScrollToTop from './components/ScrollToTop/ScrollToTop'
-import Contact from './components/Contact/Contact'
-// import Footer from './components/Footer/Footer'
+import About from '../About/About'
+import Projects from '../Projects/Projects'
+import Skills from '../Skills/Skills'
+// import ScrollToTop from '../ScrollToTop/ScrollToTop'
+import Contact from '../Contact/Contact'
+// import Footer from '../Footer/Footer'
+import { Routes, Route } from 'react-router-dom'
 
-export const Main = (props) => {
-  return (
-    
-    <main>
-    <About />
-    <Projects />
-    <Skills />
-    <Contact />
-  </main>
+export const Main = () => {
+    return (
+        <main>
+        <Routes>
+            
+            <Route path="/about" element={<About />} />
+            <Route path="/projects" element= {<Projects />} />
+                {/* <Skills />   combine with projects */}
+                {/* <Contact /> */}
+            
+        </Routes>
+        </main>
 
-  )
+    )
 }
 
-
+export default Main;
 
 
 
