@@ -1,71 +1,65 @@
+
 const header = {
-  // all the properties are optional - can be left empty or deleted
-  homepage: 'https://rajshekhar26.github.io/cleanfolio',
-  title: 'JS.',
+  homepage: 'https://faizamahmoud-portfolio.netlify.app/',
+  title: 'FM.',
 }
 
 const about = {
-  // all the properties are optional - can be left empty or deleted
-  name: 'John Smith',
-  role: 'Front End Engineer',
+  
+  name: 'Faiza',
+  role: 'FULL STACK DEV',
   description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
-  resume: 'https://example.com',
+    '',
+  resume: 'https://example.com', //! update resume 
   social: {
-    linkedin: 'https://linkedin.com',
-    github: 'https://github.com',
+    linkedin: 'https://www.linkedin.com/in/faizamahmoud/',
+    github: 'https://github.com/faizamahmoud',
   },
 }
 
 const projects = [
-  // projects can be added an removed
-  // if there are no projects, Projects section won't show up
+  
   {
-    name: 'Project 1',
+    name: 'BlackJackStacks',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'A simple game of BlackJack using object-oriented programming concepts',
+    stack: ['Vanilla Javascript', 'HTML','CSS'],
+    sourceCode: 'https://github.com/faizamahmoud/deploy-blackjack',
+    livePreview: 'https://faizamahmoud.github.io/deploy-blackjack/',
   },
   {
-    name: 'Project 2',
+    name: 'TravelHub',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'Collaborated with two developers to create a forum-based app, mimicking the original version of Reddit with a focus on all things travel-related."',
+    stack: ['Node.js', 'Express.js', 'MongoDB', 'EJS', 'CSS'] ,
+    sourceCode: 'https://github.com/maclamour/Project-2-TravelHub',
+    livePreview: 'https://travelhub3.herokuapp.com/login',
   },
   {
-    name: 'Project 3',
+    name: 'Lean On Me',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+    'Partnered a team of designers and developers in a hackathon for three days, resulting in the creation of a web platform that seamlessly matches volunteers with animal shelters in their community.',
+    stack: ['React', 'HTML', 'CSS'],
+    sourceCode: 'https://github.com/faizamahmoud/winter-hackaton-team2',
+    livePreview: 'https://leanonme-ga-winterhackathon.netlify.app/',
   },
 ]
 
 const skills = [
-  // skills can be added or removed
-  // if there are no skills, Skills section won't show up
   'HTML',
   'CSS',
   'JavaScript',
-  'TypeScript',
+  'Python',
+  'Node.js',
+  'Express.js',
   'React',
-  'Redux',
-  'SASS',
-  'Material UI',
+  'Django',
   'Git',
-  'CI/CD',
-  'Jest',
-  'Enzyme',
+  'Passport-JWT'
 ]
 
 const contact = {
-  // email is optional - if left empty Contact section won't show up
-  email: 'johnsmith@mail.com',
+  email: 'faiza_mahmoud@icloud.com',
 }
 
 export { header, about, projects, skills, contact }
