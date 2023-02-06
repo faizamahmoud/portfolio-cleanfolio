@@ -15,7 +15,7 @@ export const Main = () => {
             
             <Route path="/" element={<About />} />
             <Route path="/projects" element= {<Projects />} />
-            <Route path="/"          element= {<Home />} />
+            {/* <Route path="/"          element= {<Home />} /> */}
                 {/* <Skills />   combine with projects */}
                 {/* <Contact /> */}
             

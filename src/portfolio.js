@@ -1,6 +1,6 @@
 
 const header = {
-  homepage: 'https://faizamahmoud-portfolio.netlify.app/',
+  homepage: '/',
   title: 'Faiza Mahmoud',
 }
 
