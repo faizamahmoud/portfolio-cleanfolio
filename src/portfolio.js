@@ -1,7 +1,7 @@
 
 const header = {
   homepage: 'https://faizamahmoud-portfolio.netlify.app/',
-  title: 'FM.',
+  title: 'Faiza Mahmoud',
 }
 
 const about = {
