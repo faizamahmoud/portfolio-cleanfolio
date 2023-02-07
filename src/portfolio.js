@@ -4,18 +4,25 @@ const header = {
   title: 'Faiza Mahmoud',
 }
 
-const about = {
+const home = {
   
   name: 'Faiza',
   role: 'FULL STACK DEV',
   description:
     '',
-  resume: 'https://example.com', //! update resume 
+  resume: 'https://github.com/faizamahmoud/portfolio-cleanfolio/blob/main/src/fm-resume%20-%20online.pdf', //! update resume 
   social: {
     linkedin: 'https://www.linkedin.com/in/faizamahmoud/',
     github: 'https://github.com/faizamahmoud',
   },
 }
+
+const bio = [{
+  name:"Faiza Mahmoud",
+  img: "",
+  header: "Hello WOrld",
+  description: "Hi Bye",
+}]
 
 const projects = [
   
@@ -62,4 +69,4 @@ const contact = {
   email: 'faiza_mahmoud@icloud.com',
 }
 
-export { header, about, projects, skills, contact }
+export { header, home, projects, skills, contact, bio }

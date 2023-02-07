@@ -1,37 +1,43 @@
-.about {
+.home {
   flex-direction: column;
   margin-top: 3em;
 }
 
-.about__name {
+.home__name {
   color: var(--clr-primary);
 }
 
-.about__role {
+.home__role {
   margin-top: 1.2em;
 }
 
-.about__desc {
+.home__desc {
   font-size: 1rem;
   max-width: 600px;
 }
 
-.about__desc,
-.about__contact {
+.home__desc,
+.home__contact {
   margin-top: 2.4em;
 }
 
-.about .link--icon {
+.home .link--icon {
   margin-right: 0.8em;
 }
 
-.about .btn--outline {
+.home .btn--outline {
   margin-right: 1em;
 }
 
+.profile-img {
+  border-radius: 50%;
+}
+
+
 @media (max-width: 600px) {
-  .app .about {
+  .app .home {
     align-items: flex-start;
     margin-top: 2em;
   }
 }
+
